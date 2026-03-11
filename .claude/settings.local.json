@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la /d/nanobot/nanobot/skills/*/)",
+      "Bash(wc -l /d/nanobot/nanobot/**/*.py 2>/dev/null | tail -1)",
+      "Bash(python -c \"\ncontent = open\\('D:/nanobot/LEARNING_GUIDE.md', 'r', encoding='utf-8'\\).read\\(\\)\nprint\\(f'Current length: {len\\(content\\)} chars, {content.count\\(chr\\(10\\)\\)} lines'\\)\n\")",
+      "Bash(python3 -c \"print\\('hello'\\)\" 2>&1 || python -c \"print\\('hello'\\)\" 2>&1)"
+    ]
+  }
+}
